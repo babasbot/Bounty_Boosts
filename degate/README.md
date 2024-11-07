@@ -1,0 +1,113 @@
+# DeGate
+
+## Reports by Severity
+
+[Insight](./#insight)
+
+<details>
+
+<summary>Insight</summary>
+
+* [25882 - \[SC - Insight\] Freezing of funds from the Default Deposit Cont...](25882-sc-insight-freezing-of-funds-from-the-default-deposit-cont....md)
+* [25885 - \[SC - Insight\] Prevent the operator from submitting blocks to L](25885-sc-insight-prevent-the-operator-from-submitting-blocks-to-l.md)
+* [25886 - \[SC - Insight\] registerToken can be front-run causing token ca...](25886-sc-insight-registertoken-can-be-front-run-causing-token-ca....md)
+* [25892 - \[SC - Insight\] A malicious user can DoS force withdraw request...](25892-sc-insight-a-malicious-user-can-dos-force-withdraw-request....md)
+* [25903 - \[SC - Insight\] Possible loss of user funds by front-runing the...](25903-sc-insight-possible-loss-of-user-funds-by-front-runing-the....md)
+* [25906 - \[SC - Insight\] setDelay function doesnt revert even when the d...](25906-sc-insight-setdelay-function-doesnt-revert-even-when-the-d....md)
+* [25917 - \[SC - Insight\] Timelock can call transferProxyOwnership of Dep...](25917-sc-insight-timelock-can-call-transferproxyownership-of-dep....md)
+* [25921 - \[SC - Insight\] Flaw in upgradeToAndCall leads to the proxy cal...](25921-sc-insight-flaw-in-upgradetoandcall-leads-to-the-proxy-cal....md)
+* [25927 - \[SC - Insight\] MultiSig Owners can set malicious implementatio...](25927-sc-insight-multisig-owners-can-set-malicious-implementatio....md)
+* [25930 - \[SC - Insight\] Malicious owner can update the DepositParams st...](25930-sc-insight-malicious-owner-can-update-the-depositparams-st....md)
+* [25933 - \[SC - Insight\] The last person to confirm can control the exec...](25933-sc-insight-the-last-person-to-confirm-can-control-the-exec....md)
+* [25935 - \[SC - Insight\] Permissive Fallback Function](25935-sc-insight-permissive-fallback-function.md)
+* [25952 - \[SC - Insight\] The smart contract could be inoperable due to w...](25952-sc-insight-the-smart-contract-could-be-inoperable-due-to-w....md)
+* [26012 - \[SC - Insight\] getTransactionIds will break at some point runn...](26012-sc-insight-gettransactionids-will-break-at-some-point-runn....md)
+* [26017 - \[SC - Insight\] getTransactionCount will break at some point ru...](26017-sc-insight-gettransactioncount-will-break-at-some-point-ru....md)
+* [26039 - \[SC - Insight\] Proxy contract deployments can be front-run to ...](26039-sc-insight-proxy-contract-deployments-can-be-front-run-to-....md)
+* [26066 - \[SC - Insight\] Timelock eta variable can be set further than i...](26066-sc-insight-timelock-eta-variable-can-be-set-further-than-i....md)
+* [26073 - \[SC - Insight\] The implementation upgrade must be done by call...](26073-sc-insight-the-implementation-upgrade-must-be-done-by-call....md)
+* [26095 - \[SC - Insight\] ID Uniqueness Violations](26095-sc-insight-id-uniqueness-violations.md)
+* [26104 - \[SC - Insight\] Governance mechanism could be exploited to free...](26104-sc-insight-governance-mechanism-could-be-exploited-to-free....md)
+* [26110 - \[SC - Insight\] All the funds from the DepositProxy contracts c...](26110-sc-insight-all-the-funds-from-the-depositproxy-contracts-c....md)
+* [26116 - \[SC - Insight\] The MultiSigWalletgetTransactionIds function co...](26116-sc-insight-the-multisigwalletgettransactionids-function-co....md)
+* [26124 - \[SC - Insight\] Some owners of the MultiSigWallet can bring the...](26124-sc-insight-some-owners-of-the-multisigwallet-can-bring-the....md)
+* [26189 - \[SC - Insight\] Malicious Exchange Owner can sandwich-attack Et...](26189-sc-insight-malicious-exchange-owner-can-sandwich-attack-et....md)
+* [26204 - \[SC - Insight\] DeGate Operator has capability to disable balan...](26204-sc-insight-degate-operator-has-capability-to-disable-balan....md)
+* [26236 - \[SC - Insight\] Malicious DeGate Operator EOA can irreversibly ...](26236-sc-insight-malicious-degate-operator-eoa-can-irreversibly-....md)
+* [26259 - \[SC - Insight\] txHash collision is possible](26259-sc-insight-txhash-collision-is-possible.md)
+* [26275 - \[SC - Insight\] Bad implementation of executeTransaction functi...](26275-sc-insight-bad-implementation-of-executetransaction-functi....md)
+* [26286 - \[SC - Insight\] Potential Signature Validation Bypass](26286-sc-insight-potential-signature-validation-bypass.md)
+* [26422 - \[SC - Insight\] there is no explicit gas limit in external call...](26422-sc-insight-there-is-no-explicit-gas-limit-in-external-call....md)
+* [26423 - \[SC - Insight\] Timelock executeTransaction function will succe...](26423-sc-insight-timelock-executetransaction-function-will-succe....md)
+* [26431 - \[SC - Insight\] High Risk in transfer of proxyOwnership](26431-sc-insight-high-risk-in-transfer-of-proxyownership.md)
+* [26446 - \[SC - Insight\] Consider implementing a two step process in tra...](26446-sc-insight-consider-implementing-a-two-step-process-in-tra....md)
+* [26468 - \[SC - Insight\] Fee-on-transfer tokens can be used to steal oth...](26468-sc-insight-fee-on-transfer-tokens-can-be-used-to-steal-oth....md)
+* [26479 - \[SC - Insight\] ExchangeV cannot be reinitialized after an upgrade](26479-sc-insight-exchangev-cannot-be-reinitialized-after-an-upgrade.md)
+* [26501 - \[SC - Insight\] Timelock should handle queuing transactions and...](26501-sc-insight-timelock-should-handle-queuing-transactions-and....md)
+* [26502 - \[SC - Insight\] DeGate Exodus mode forcing study](26502-sc-insight-degate-exodus-mode-forcing-study.md)
+* [26509 - \[SC - Insight\] Exodus Mode Force](26509-sc-insight-exodus-mode-force.md)
+* [26516 - \[SC - Insight\] Gnosis Multisig Contract can become unusable](26516-sc-insight-gnosis-multisig-contract-can-become-unusable.md)
+* [26519 - \[SC - Insight\] Consider introducing the ability to change requ...](26519-sc-insight-consider-introducing-the-ability-to-change-requ....md)
+* [26520 - \[SC - Insight\] Multisig Contract onChain can be bricked](26520-sc-insight-multisig-contract-onchain-can-be-bricked.md)
+* [26521 - \[SC - Insight\] ChainId is missing](26521-sc-insight-chainid-is-missing.md)
+* [26527 - \[SC - Insight\] Possible emission of wrong data in cancelTransa...](26527-sc-insight-possible-emission-of-wrong-data-in-canceltransa....md)
+* [26529 - \[SC - Insight\] Mitigate Griefing Attacks Theft of Gas by Impl...](26529-sc-insight-mitigate-griefing-attacks-theft-of-gas-by-impl....md)
+* [26530 - \[SC - Insight\] Inefficiency in upgradeToAndCall](26530-sc-insight-inefficiency-in-upgradetoandcall.md)
+
+</details>
+
+## Reports by Type
+
+[Smart Contract](./#smart-contract)
+
+<details>
+
+<summary>Smart Contract</summary>
+
+* [25882 - \[SC - Insight\] Freezing of funds from the Default Deposit Cont...](25882-sc-insight-freezing-of-funds-from-the-default-deposit-cont....md)
+* [25885 - \[SC - Insight\] Prevent the operator from submitting blocks to L](25885-sc-insight-prevent-the-operator-from-submitting-blocks-to-l.md)
+* [25886 - \[SC - Insight\] registerToken can be front-run causing token ca...](25886-sc-insight-registertoken-can-be-front-run-causing-token-ca....md)
+* [25892 - \[SC - Insight\] A malicious user can DoS force withdraw request...](25892-sc-insight-a-malicious-user-can-dos-force-withdraw-request....md)
+* [25903 - \[SC - Insight\] Possible loss of user funds by front-runing the...](25903-sc-insight-possible-loss-of-user-funds-by-front-runing-the....md)
+* [25906 - \[SC - Insight\] setDelay function doesnt revert even when the d...](25906-sc-insight-setdelay-function-doesnt-revert-even-when-the-d....md)
+* [25917 - \[SC - Insight\] Timelock can call transferProxyOwnership of Dep...](25917-sc-insight-timelock-can-call-transferproxyownership-of-dep....md)
+* [25921 - \[SC - Insight\] Flaw in upgradeToAndCall leads to the proxy cal...](25921-sc-insight-flaw-in-upgradetoandcall-leads-to-the-proxy-cal....md)
+* [25927 - \[SC - Insight\] MultiSig Owners can set malicious implementatio...](25927-sc-insight-multisig-owners-can-set-malicious-implementatio....md)
+* [25930 - \[SC - Insight\] Malicious owner can update the DepositParams st...](25930-sc-insight-malicious-owner-can-update-the-depositparams-st....md)
+* [25933 - \[SC - Insight\] The last person to confirm can control the exec...](25933-sc-insight-the-last-person-to-confirm-can-control-the-exec....md)
+* [25935 - \[SC - Insight\] Permissive Fallback Function](25935-sc-insight-permissive-fallback-function.md)
+* [25952 - \[SC - Insight\] The smart contract could be inoperable due to w...](25952-sc-insight-the-smart-contract-could-be-inoperable-due-to-w....md)
+* [26012 - \[SC - Insight\] getTransactionIds will break at some point runn...](26012-sc-insight-gettransactionids-will-break-at-some-point-runn....md)
+* [26017 - \[SC - Insight\] getTransactionCount will break at some point ru...](26017-sc-insight-gettransactioncount-will-break-at-some-point-ru....md)
+* [26039 - \[SC - Insight\] Proxy contract deployments can be front-run to ...](26039-sc-insight-proxy-contract-deployments-can-be-front-run-to-....md)
+* [26066 - \[SC - Insight\] Timelock eta variable can be set further than i...](26066-sc-insight-timelock-eta-variable-can-be-set-further-than-i....md)
+* [26073 - \[SC - Insight\] The implementation upgrade must be done by call...](26073-sc-insight-the-implementation-upgrade-must-be-done-by-call....md)
+* [26095 - \[SC - Insight\] ID Uniqueness Violations](26095-sc-insight-id-uniqueness-violations.md)
+* [26104 - \[SC - Insight\] Governance mechanism could be exploited to free...](26104-sc-insight-governance-mechanism-could-be-exploited-to-free....md)
+* [26110 - \[SC - Insight\] All the funds from the DepositProxy contracts c...](26110-sc-insight-all-the-funds-from-the-depositproxy-contracts-c....md)
+* [26116 - \[SC - Insight\] The MultiSigWalletgetTransactionIds function co...](26116-sc-insight-the-multisigwalletgettransactionids-function-co....md)
+* [26124 - \[SC - Insight\] Some owners of the MultiSigWallet can bring the...](26124-sc-insight-some-owners-of-the-multisigwallet-can-bring-the....md)
+* [26189 - \[SC - Insight\] Malicious Exchange Owner can sandwich-attack Et...](26189-sc-insight-malicious-exchange-owner-can-sandwich-attack-et....md)
+* [26204 - \[SC - Insight\] DeGate Operator has capability to disable balan...](26204-sc-insight-degate-operator-has-capability-to-disable-balan....md)
+* [26236 - \[SC - Insight\] Malicious DeGate Operator EOA can irreversibly ...](26236-sc-insight-malicious-degate-operator-eoa-can-irreversibly-....md)
+* [26259 - \[SC - Insight\] txHash collision is possible](26259-sc-insight-txhash-collision-is-possible.md)
+* [26275 - \[SC - Insight\] Bad implementation of executeTransaction functi...](26275-sc-insight-bad-implementation-of-executetransaction-functi....md)
+* [26286 - \[SC - Insight\] Potential Signature Validation Bypass](26286-sc-insight-potential-signature-validation-bypass.md)
+* [26422 - \[SC - Insight\] there is no explicit gas limit in external call...](26422-sc-insight-there-is-no-explicit-gas-limit-in-external-call....md)
+* [26423 - \[SC - Insight\] Timelock executeTransaction function will succe...](26423-sc-insight-timelock-executetransaction-function-will-succe....md)
+* [26431 - \[SC - Insight\] High Risk in transfer of proxyOwnership](26431-sc-insight-high-risk-in-transfer-of-proxyownership.md)
+* [26446 - \[SC - Insight\] Consider implementing a two step process in tra...](26446-sc-insight-consider-implementing-a-two-step-process-in-tra....md)
+* [26468 - \[SC - Insight\] Fee-on-transfer tokens can be used to steal oth...](26468-sc-insight-fee-on-transfer-tokens-can-be-used-to-steal-oth....md)
+* [26479 - \[SC - Insight\] ExchangeV cannot be reinitialized after an upgrade](26479-sc-insight-exchangev-cannot-be-reinitialized-after-an-upgrade.md)
+* [26501 - \[SC - Insight\] Timelock should handle queuing transactions and...](26501-sc-insight-timelock-should-handle-queuing-transactions-and....md)
+* [26502 - \[SC - Insight\] DeGate Exodus mode forcing study](26502-sc-insight-degate-exodus-mode-forcing-study.md)
+* [26509 - \[SC - Insight\] Exodus Mode Force](26509-sc-insight-exodus-mode-force.md)
+* [26516 - \[SC - Insight\] Gnosis Multisig Contract can become unusable](26516-sc-insight-gnosis-multisig-contract-can-become-unusable.md)
+* [26519 - \[SC - Insight\] Consider introducing the ability to change requ...](26519-sc-insight-consider-introducing-the-ability-to-change-requ....md)
+* [26520 - \[SC - Insight\] Multisig Contract onChain can be bricked](26520-sc-insight-multisig-contract-onchain-can-be-bricked.md)
+* [26521 - \[SC - Insight\] ChainId is missing](26521-sc-insight-chainid-is-missing.md)
+* [26527 - \[SC - Insight\] Possible emission of wrong data in cancelTransa...](26527-sc-insight-possible-emission-of-wrong-data-in-canceltransa....md)
+* [26529 - \[SC - Insight\] Mitigate Griefing Attacks Theft of Gas by Impl...](26529-sc-insight-mitigate-griefing-attacks-theft-of-gas-by-impl....md)
+* [26530 - \[SC - Insight\] Inefficiency in upgradeToAndCall](26530-sc-insight-inefficiency-in-upgradetoandcall.md)
+
+</details>
