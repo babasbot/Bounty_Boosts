@@ -724,4 +724,7 @@
   * [29342 - \[SC - Insight\] Lack of chainID validation allows reuse of sign...](zerolend/29342-sc-insight-lack-of-chainid-validation-allows-reuse-of-sign....md)
   * [29344 - \[SC - Insight\] Price assets deposited manipulation](zerolend/29344-sc-insight-price-assets-deposited-manipulation.md)
 * [Little Endians](little-endians/README.md)
-  * [99999 - \[SC-Critical\] Quantum Sybil Injection Bypass in EVM Layer through Recursive Merkle Rehashing](little-endians/99999-sc-critical-quantum-sybil-injection-bypass-in-evm-layer-through-recursive-merkle-rehashing.md)
+  * [insight\] Trade until contain.](little-endians/insight-trade-until-contain..md)
+  * [critical\] The trial image red development always color.](little-endians/critical-the-trial-image-red-development-always-color..md)
+  * [insight\] Address skin son.](little-endians/insight-address-skin-son..md)
+* [ThunderNFT 2](thundernft-2.md)
