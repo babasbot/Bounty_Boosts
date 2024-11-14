@@ -1,0 +1,32 @@
+name: Replace placeholder anchor links
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  edit-code:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Replace placeholder anchor links
+      run: |
+        find . -mindepth 2 -name "README.md" -exec gsed -i -E 's/\[(.+)\]\(#__PLACEHOLDER__([^)]+)\)/[\1](\.\/\2.md)/g' {} \;
+
+    - name: Configure Git
+      run: |
+        git config user.name "Andrew Martin"
+        git config user.email "andrew@immunefi.com"
+
+    - name: Commit changes
+      run: |
+        git add .
+        git commit -m "Automated replacement of placeholder anchor links in ./**/README.md files [skip ci]" || echo "No changes to commit"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@v0.8.0
