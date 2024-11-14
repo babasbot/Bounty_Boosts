@@ -16,7 +16,7 @@ jobs:
 
     - name: Replace placeholder anchor links
       run: |
-        find . -mindepth 2 -name "README.md" -exec gsed -i -E 's/\[(.+)\]\(#__PLACEHOLDER__([^)]+)\)/[\1](\.\/\2.md)/g' {} \;
+        find . -mindepth 2 -name "README.md" -exec sed -i -E 's/\[(.+)\]\(#__PLACEHOLDER__([^)]+)\)/[\1](\.\/\2.md)/g' {} \;
 
     - name: Configure Git
       run: |
